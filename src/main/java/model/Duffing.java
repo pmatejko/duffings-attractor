@@ -71,7 +71,7 @@ public class Duffing {
         this.omega = omega;
     }
 
-    private void iterate() {
+    public void iterate() {
         t += dt;
 
         double dxdt = dxdtFunction.apply(this);

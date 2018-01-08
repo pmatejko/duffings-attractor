@@ -21,6 +21,6 @@ public class Point2D {
 
     @Override
     public String toString(){
-        return "(" + x + ", " + y + ")";
+        return "(" + x * 100 + ", " + y * 100 + ")";
     }
 }
